@@ -24,8 +24,6 @@ def register(user: UserCreate):
     }
 
    
-
-
 @router.post("/login")
 def login(user: UserLogin):
     for u in users_db:

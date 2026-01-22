@@ -10,6 +10,7 @@ app.include_router(
     tags=["Auth"]
 )
 
+
 app.include_router(chamados_router)
 
 @app.get("/")
