@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from app.auth.router import router as auth_router
 from app.chamados.router import router as chamados_router
 from app.database import Base, engine
-from app.models import chamados
+from app.models import chamados , usuario
 
 app = FastAPI()
 
